@@ -1,0 +1,21 @@
+html{
+	background-color: #ECEEF1 ;
+}
+
+
+.form-text-style{
+	font-size:24px;
+	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #c4c4c4;
+	font-weight: 400px;
+	line-height: 1.1px;
+}
+
+.form-div{
+	margin: auto;
+	border: 1px solid #c7c7c7;
+	background-color: #fff;
+	padding: 30px;
+	width: 380px;
+	
+}

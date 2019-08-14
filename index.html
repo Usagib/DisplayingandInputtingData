@@ -2,9 +2,9 @@
 
 <html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="utf-8">
 	<title>awesome-formulary</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<nav>
@@ -20,12 +20,13 @@
 			<img alt="" src="img/intuitlogo.png"/>
 		</div>
 	</header>
+	<div class="form-logo">
+		<img alt="" src="img/logosform.png"/>
+	</div>
 	<div class="form-div">
-		<div class="form-logo">
-			<img alt="" src="img/logosform.png"/>
-		</div>
+		
 		<form>
-			<h1>Create an Intuit account</h1>
+			<h1 class="form-text-style">Create an Intuit account</h1>
 			<br>
 			<span>One account for everything intuit, including Mint</span>
 			<br>
@@ -42,6 +43,7 @@
 				<label for="user-phone">Phone(recommended)</label>
 				<br>
 				<input type="tel" name="user-phone"/>
+				<span>Standard call, messaging or data rates may apply.</span>
 			</fieldset>
 			<fieldset>
 				<label for="user-password">Password</label>
@@ -54,9 +56,29 @@
 				</button>
 			</div>
 		</form>
-		by clicking
+		<span>By clicking Create account, you agree to our</span>
+		<a href="#..terms" >Terms</a>
+		<span>and have read and acknowledge our</span>
+		<a href="#..privacy">Privacy Statement</a>
+	
+		<div>
+			<span>Invisible reCAPTCHA by Google</span>
+			<a href="#">Privacy Policy</a><span>and</span>
+			<a href="#terms.."> Terms of Use.</a>
+		</div>
 	</div>
 	<footer>
+		<a href="#">Legal</a>
+		<a href="#">Privacy</a>
+		<a href="#">Security</a>
+		<div>
+			<span>
+				© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+			</span>
+			<span>
+				Terms and conditions, features, support, pricing, and service options subject to change without notice.
+			</span>
+		</div>
 
 	</footer>
 </body>
