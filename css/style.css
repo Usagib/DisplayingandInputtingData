@@ -17,7 +17,7 @@ html{
 	border: 1px solid #c7c7c7;
 	background-color: #fff;
 	padding: 30px;
-	width: 380px;
+	width: 320px;
 
 }
 
@@ -55,12 +55,23 @@ label{
 }
 
 .input-style{
-	border: solid 2px;
+	border: solid 1px;
 	border-radius: 3px;
 	text-shadow:none;
 	border-color: #C1C5C8;
+	width: 320px;
+	line-height: 30px;
+}
+
+.form-description{
+	color: #4C4C4C;
+	font-size: 14px;
+	text-align: center;
+	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-top: 20px;
 }
 
 a{
 	text-decoration: none;
+	color: #0077C5;
 }
