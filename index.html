@@ -7,14 +7,14 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<nav>
+	<div class="nav-bar">
 		<span>Already have an Intuit account?</span>
 		<a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS#" >I forgot my User ID or Password</a>
 		<button>
 			<img src="" alt="" />
 			<span>Sign In</span>
 		</button>
-	</nav>
+	</div>
 	<header class="logo">
 		<div class="intuit-logo">
 			<img alt="" src="img/intuitlogo.png"/>
@@ -24,7 +24,7 @@
 		<img alt="" src="img/logosform.png"/>
 	</div>
 	<div class="form-div">
-		
+
 		<form>
 			<h1 class="form-text-style">Create an Intuit account</h1>
 			<br>
@@ -37,18 +37,19 @@
 			<fieldset>
 				<label for="user-email">Email address</label>
 				<br>
-				<input type="email" name="user-email" required/>
+				<input class="input-style" type="email" name="user-email" required/>
 			</fieldset>
 			<fieldset>
-				<label for="user-phone">Phone(recommended)</label>
+				<label  for="user-phone">Phone(recommended)</label>
 				<br>
-				<input type="tel" name="user-phone"/>
-				<span>Standard call, messaging or data rates may apply.</span>
+				<input class="input-style" type="tel" name="user-phone"/>
+				<br>
+				<span class="s-typo">Standard call, messaging or data rates may apply.</span>
 			</fieldset>
 			<fieldset>
 				<label for="user-password">Password</label>
 				<br>
-				<input type="tel" name="user-phone"/>
+				<input class="input-style" type="tel" name="user-phone" required/>
 			</fieldset>
 			<div>
 				<button>
@@ -60,7 +61,7 @@
 		<a href="#..terms" >Terms</a>
 		<span>and have read and acknowledge our</span>
 		<a href="#..privacy">Privacy Statement</a>
-	
+
 		<div>
 			<span>Invisible reCAPTCHA by Google</span>
 			<a href="#">Privacy Policy</a><span>and</span>

@@ -1,14 +1,15 @@
 html{
-	background-color: #ECEEF1 ;
+	background-color: #ECEEF1;
 }
 
 
 .form-text-style{
 	font-size:24px;
 	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: #c4c4c4;
+	color: #4C4C4C;
 	font-weight: 400px;
 	line-height: 1.1px;
+	text-align: center;
 }
 
 .form-div{
@@ -17,5 +18,49 @@ html{
 	background-color: #fff;
 	padding: 30px;
 	width: 380px;
-	
+
+}
+
+.nav-bar{
+	display: inline-block;
+	justify-items: end;
+}
+
+.intuit-logo{
+	text-align: center;
+}
+
+.form-logo{
+	text-align: center;
+}
+
+fieldset{
+	border: none;
+}
+
+.s-typo{
+	font-size:10px;
+	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #4c4c4c;
+	font-weight: 300px;
+	line-height: 1.2px;
+}
+
+label{
+	font-size:14px;
+	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #404040;
+	font-weight: 400px;
+	line-height: 25px;
+}
+
+.input-style{
+	border: solid 2px;
+	border-radius: 3px;
+	text-shadow:none;
+	border-color: #C1C5C8;
+}
+
+a{
+	text-decoration: none;
 }
