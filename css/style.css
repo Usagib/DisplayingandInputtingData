@@ -18,12 +18,20 @@ html{
 	background-color: #fff;
 	padding: 30px;
 	width: 320px;
-
+	vertical-align: middle;
 }
 
 .nav-bar{
-	display: inline-block;
-	justify-items: end;
+	overflow:hidden;
+	width: 100%
+	top:0;
+	font-size: 12px;
+}
+
+.nav-bar > div{
+	float: right;
+	display: block;
+	color: #c7c7c7;
 }
 
 .intuit-logo{
@@ -36,6 +44,8 @@ html{
 
 fieldset{
 	border: none;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .s-typo{
@@ -74,4 +84,49 @@ label{
 a{
 	text-decoration: none;
 	color: #0077C5;
+}
+
+.s-logo{
+	width: 15px;
+	padding-right: 10px;
+}
+
+.create-button{
+	background-color: #0077C5;
+	padding: 13px;
+	border: solid 1px #fff;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	font-weight: 300px;
+	font-size: 14px;
+}
+
+.sign-button{
+	background-color: #0077C5;
+	padding: 13px;
+	border: solid 1px #fff;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	font-weight: 300px;
+	font-size: 14px;
+}
+
+.form-bottom-style{
+	color: #4C4C4C;
+	font-size: 12px;
+	text-align: center;
+	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-top: 20px;
+	font-style: italic;
+}
+
+.form-footer-style{
+	background-color: #ECEEF1 !important;
+	color: #4C4C4C;
+	font-size: 10px;
+	text-align: center;
+	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-top: 20px;
 }
