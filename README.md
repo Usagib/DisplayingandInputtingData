@@ -12,3 +12,7 @@ Project Screenshot, 🌋👯‍✈️
 ![alt text][logo]
 
 [logo]: img/screenshot.png "We did it! 🎊🎉🚀"
+
+## Visit Our Live Demo at:
+
+### [LIVE DEMO](https://usagib.github.io)
