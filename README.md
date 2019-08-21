@@ -15,4 +15,4 @@ Project Screenshot, 🌋👯‍✈️
 
 ## Visit Our Live Demo at:
 
-### [LIVE DEMO](https://usagib.github.io)
+### [LIVE DEMO](https://usagib.github.io/mintclone)
